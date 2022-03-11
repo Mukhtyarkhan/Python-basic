@@ -1,0 +1,121 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:whitesmoke;
+    margin-top: 0;
+    
+}
+.box{
+    background-color: blue;
+    height: 500px;
+    margin: 55px ;
+    margin-top:0; 
+}
+.box:hover{
+    background-color:gray;
+
+}
+#box1{
+    height: 60px;
+    background-color: green;
+    position: fixed;
+    overflow-x: hidden;
+
+ 
+     
+} 
+img{
+    border-radius: 50%;
+    margin-top: 100px;
+}
+#box1:hover{
+    background-color: grey;
+}
+#box1 a{
+    color: white;
+    padding-right: 15px;
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+}
+#box1::before{
+    content: "Wellcome";
+    color: white;
+    font-size: 25px;
+    padding-right: 300px;
+
+}
+#box3{
+    margin-top: 20px;
+    text-align: center;
+    margin-left: auto;
+    width: 300px;
+    margin-right: auto;
+    color: white;
+
+}
+#box3 a{
+    text-decoration: none;
+    display:inline-block;
+    border: 1px solid black;
+    padding-left: 35px;
+    padding-right: 35px;
+    background-color: green;
+    color: white;
+}
+#box3 a:hover{
+    background-color: gray;
+    display:inline-block;
+}
+#box4{
+    margin-top: 45px;
+    text-align: center;
+    margin-left: auto;
+    width: 300px;
+    margin-right: auto;
+    
+
+}
+#box4 th{
+    padding-left: 20px;
+    padding-right: 20px; 
+    font-size: 40px;
+}
+#box5{
+    width:1000px ;
+    height: 350px;
+    border:2px solid white;
+    background-color: white;
+    margin-left: 120px;
+    margin-right: 120px;
+    display: inline-block;
+} 
+.box6{
+    width: 450px;
+    float: left;
+    padding-top: 0;
+    margin-top: 0;
+
+
+}
+.last{
+    float: right;
+    width:450px;
+    padding-right: 30px;
+    display:inline-block;
+}
+.last tr th{
+    white-space: pre;
+    display:inline-block;
+    
+}
+html{
+    scroll-behavior: smooth;
+
+}
+#box7{
+    background-color: white;
+}
+.box8{
+    margin-top: 10px;
+    background-color: aqua;
+}
