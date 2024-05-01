@@ -1,1 +1,1 @@
-# cv of mukhtyar
+# basic programes in python by mukhtyar 
